@@ -1,20 +1,24 @@
 project:
   type: book
+  execute-dir: "project"
+  output-dir: ./_site
 
 book:
-  title: "Quarto bugs"
-  author: "Norah Jones"
-  date: "10/13/2024"
+  author: "Atilla Özgür"
+  date: today
+  cover-image: cover.png
   chapters:
     - index.qmd
-    - references.qmd
+    - part: "Database Introduction"
+      chapters:        
+        - course-contents/database-ranking-market-share-en.qmd
+        - course-contents/open-source-vs-enterprise-databases-en.qmd
+        - course-contents/which-databases-will-be-covered-en.md 
+        - course-contents/server-installation-en.qmd
+        - course-contents/database-playground-en.md
+        - course-contents/example-database-schemas-en.qmd
+    - summary-en.qmd
+    - references-en.qmd
 
-#bibliography: references.bib
-
-format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-#    cite-method: natbib
+bibliography: references.bib 
 
