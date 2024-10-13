@@ -11,11 +11,9 @@ book:
     - index.qmd
     - part: "Database Introduction"
       chapters:        
-#        - course-contents/database-ranking-market-share-en.qmd
-#        - course-contents/open-source-vs-enterprise-databases-en.qmd
-#        - course-contents/which-databases-will-be-covered-en.md 
-#        - course-contents/database-playground-en.md
+        - course-contents/database-connections-en.qmd
         - course-contents/example-database-schemas-en.qmd
+        - course-contents/database-history-en.qmd
+        
 
-#bibliography: references.bib 
 
