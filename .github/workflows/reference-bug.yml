@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  reference-bug:
+  show-reference-bug:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
