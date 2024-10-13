@@ -1,2 +1,7 @@
 _book/*
 /.quarto/
+**/*.aux
+**/*.log
+**/*.pdf
+**/*.toc
+
