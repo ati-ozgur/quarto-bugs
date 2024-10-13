@@ -1,0 +1,33 @@
+name: image-bug
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show-image-bug:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+      - name: Quarto check
+        run: quarto check      
+      # Show render to html works
+
+      - name: Render Quarto Project Profile en html
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: en
+        with:
+          to: html
+      # Show render to pdf DOES NOT work
+      - name: Render Quarto Project Profile en pdf
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: en
+        with:
+          to: pdf
