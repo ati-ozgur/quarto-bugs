@@ -1,10 +1,10 @@
-name: reference-bug
+name: image-bug
 
 on:
   workflow_dispatch:
 
 jobs:
-  show-reference-bug:
+  show-image-bug:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
