@@ -10,6 +10,3 @@
 
 
 
-
-{{< include ../course-contents/connection-string-en.md >}}
-
