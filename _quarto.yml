@@ -6,14 +6,17 @@ project:
 book:
   author: "Atilla Özgür"
   date: today
+  date-format: "YYYY-MM-DD"
   cover-image: cover.png
+  output-file: "databases"
   chapters:
-    - index.qmd
-    - part: "Database Introduction"
-      chapters:        
-        - course-contents/database-connections-en.qmd
-        - course-contents/example-database-schemas-en.qmd
-        - course-contents/database-history-en.qmd
-        
+      - index.qmd
+
+
+profile:
+  default: en
+  group: 
+    - [def,en]
+
 
 

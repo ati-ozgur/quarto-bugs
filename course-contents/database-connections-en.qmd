@@ -1,7 +1,9 @@
 # database connections
 
+{{< include ../course-contents/database-drivers-en.md >}}
 
 
+{{< include ../course-contents/database-terms-en.md >}}
 
 
 {{< include ../course-contents/database-connection-gui-dialogs-en.md >}}
@@ -9,4 +11,5 @@
 
 
 
+{{< include ../course-contents/connection-string-en.md >}}
 

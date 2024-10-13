@@ -1,7 +1,22 @@
+## Short History of databases
 
-{{< include ../course-contents/include-image1.md >}}
 
 
+## Database Models
+
+
+![Wikipedia 2016 Database Models](images/database-models.png)
+
+@Wikipedia2016DatabaseModelsFigure
+
+
+## Graph Database
+
+![Wikipedia2016DatabaseModelsFigure](./images/database-models-graph-example-opensource-com.png)
+
+## Vector databases
+
+{{< include ../course-contents/diagrams/how-vector-databases-works-en.md >}}
 
 
 
