@@ -5,4 +5,7 @@ _book/*
 **/*.log
 **/*.pdf
 **/*.toc
-
+*.aux
+*.log
+*.pdf
+*.toc
